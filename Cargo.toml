@@ -8,7 +8,7 @@ rust-version = "1.81.0"
 homepage = "https://github.com/async-graphql/async-graphql"
 keywords = ["futures", "async", "graphql"]
 license = "MIT OR Apache-2.0"
-name = "async-graphql"
+name = "async-graphql-mirror"
 readme = "README.md"
 repository = "https://github.com/async-graphql/async-graphql"
 version = "7.0.13"
@@ -137,12 +137,7 @@ members = [
   "value",
   "parser",
   "derive",
-  "integrations/poem",
-  "integrations/actix-web",
-  "integrations/rocket",
-  "integrations/warp",
   "integrations/axum",
-  "integrations/tide",
 ]
 
 [workspace.dependencies]
